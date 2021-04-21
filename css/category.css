@@ -1,0 +1,72 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.poster{
+  font-size: 0;
+}
+.poster img{
+  position: relative;
+  top: 0;
+  width: 100vw;
+}
+section{
+  position: relative;
+  width: 100vw;
+}
+.toleft{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  z-index: 10;
+  font-size: 30px;
+}
+.toright{
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  right: 20px;
+  font-size: 30px;
+}
+.phoneimg{
+  font-size: 0;
+  width: 1000vw;
+  user-select: none;
+  transform: translateX(0px);
+  transition: all 0.2s ease-in-out;
+}
+.title{
+  width: 100vw;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fafafa;
+  font-size: 30px;
+  font-weight: bold;
+}
+.allphone img{
+  font-size: 0;
+  width: 28vw;
+  
+}
+.allphone .phonemsg{
+  width: 100vw;
+  height: 100px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.allbook img{
+  font-size: 0;
+  width:100vw; 
+}
+.alltv img{
+  font-size: 0;
+  width:100vw; 
+}
