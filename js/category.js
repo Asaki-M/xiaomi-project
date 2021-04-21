@@ -1,18 +1,20 @@
-let phoneimg = document.getElementsByClassName('phoneimg')[0]
-let style = Number(window.getComputedStyle(phoneimg,null).transform.split(',')[4].trim())
-phonetoleft.addEventListener('click',function(){
-  style-=300
-  if(style<0){
-    style = 3000
+let item_imgs = document.getElementsByClassName('item_imgs')[0]
+let transX = Number(window.getComputedStyle(item_imgs,null).transform.split(',')[4].trim())
+pleft.addEventListener('click',function(e){
+  
+  if(transX>0){
+    transX-=677
   }
-  phoneimg.style.transform = 'translateX(-' + style + 'px)'
+  item_imgs.style.transform = 'translateX(-' + transX + 'px)'
+  console.log(transX,e.clientX)
+
 })
-phonetoright.addEventListener('click',function(){
-  style+=300
-  if(style>3000){
-    style = 0
+pright.addEventListener('click',function(e){
+  
+  if(transX<6800){
+    transX+=677
   }
-  phoneimg.style.transform = 'translateX(-' + style + 'px)'
-  console.log(style)
+  item_imgs.style.transform = 'translateX(-' + transX + 'px)'
+  console.log(transX,e.clientX)
 
 })

@@ -1,0 +1,37 @@
+@font-face {font-family: "iconfont";
+  src: url('./iconfont/iconfont.eot?t=1618987227740'); /* IE9 */
+  src: url('./iconfont/iconfont.eot?t=1618987227740#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAASYAAsAAAAACUQAAARMAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDQAqFSIRvATYCJAMYCw4ABCAFhG0HTRsSCFGU7k2Z7OeBbbtIDwpBem9IPEW6zHirFI79IILnD9F7f2UOm8vmxkkBDCXdIqFWuCILuFjeAvn/301vCBVNVTIz6EQd25zSFwh4SMWpuX7Z30wrNrWvnv1ZVix4JUAA+P9/r2qmRWBe+xaX97LWojHpU04ovCxAARpjatot2oIUzAsK0XmZ+FZnXCbQbdJ62OWxMwKwVFizAvFIy6VgmTMpLYWhU2g1G4v4BGY60zPnEYCP4e/Hf9iUJUnNrIV3D0eD4MAvny+ZuOm/yXWfAuL9OTDaRsY6UIgPta5X8Di1Dte9SHCdg+X6Tkn65fP55Oe3XzL//8cw3siuSNVtp3pR9vKPl1SisVS9MK/SlV8+LkHh10mCzK83BMGvtwSJ35kmFV3bo7CX8wMgDsBizVPFvX9OUWaW2LrZ2o47Ei4OdhahICwqAizA5OJS6CIoTG+Pcxfb++Nb3AlRcVxHhgoEhYWNQ11di1yFRRkdcW4igtdpdrMXl8S1p8umpkTT0+LJSeHEhFT0clo89Vk08VEw+Uk4PX1ZrZe3yq86CkGEs7VTU+EOw0/8MPfqJa5Q+SgCTEWujiUlGCa/5cREuP2dqaVXyxvGH9oQGfdH6zwktRMh6SOeV8raVhAtHd7XKsasj9gXt7ttHSps1dpt8/APGnv0dPNOc4CqC+ay6eHTFA9Hj9Syij92vIjev5EiNd89uJ/rUjKxth6fmcHrbeRjT5YuiERDgxt2lIKQe8fS8i5ybh8jvwviQCGU7ngxOPRwadlS+H/DIwZOSQmH4RhQGIY4xSAGMHNiLDgYE2MSH3vCHkIuZrFTQj8WQHD3XXjh/wqasGbMR/HBLru4xMbbRH6/crHcXzb8NehVZB7kAt8GmzYJHI7tu7jz9drFk3zGfOxcXMt/ffH4vrFiT6t3vN7y7YDgwo8tvNerXbye7X+72R5/Hh5O/WcgBuNp9oKVxxftTwu5hdkIC6j7ofyNYwyHfedIAF5S8jQebhym/H7OwP7k87NVu28Re35bVsDPpm/zBF5MBTQV/CTUZPFvRyzWlaXUMrcyJ3drBJrdTEjil9LEb8Y37PW+NGNyPqHTWApJhwnIOs1TC3Mdqh6b0HQ6gW5rjm/vMYKBi9KFVUkGwqAeSPp9gWzQY2phvoJq3C9oBsOh2304H9hjMdr6MIOkLAoiA8NJWqbTUo6VtY4KLyF5sFrKZKUhW4QYIx0lN/ICitnjSIuYfSwxhsg3sSxFUoxOQx4z1yG1WkfqGZ0SyViegmX1u/h8qu6VeDKdBqxdYCBSLCQIKVA4Ek1GR4vyW7OsSz9/CSIXTE2KaSFdCIogDCO6f9JGPAEC9bhKK5Gey3CjEHKbsFhUfxqFoaNBOoYDUdspHZK+fpwSIsPiUWyR0NuF32tEqSre8TWaV7kHulkv2iJFjhI1WnSo72i5guWqEcWaG5GUkSm4GlqLuEaFTg8A') format('woff2'),
+  url('./iconfont/iconfont.woff?t=1618987227740') format('woff'),
+  url('./iconfont/iconfont.ttf?t=1618987227740') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('./iconfont/iconfont.svg?t=1618987227740#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-right:before {
+  content: "\e6df";
+}
+
+.icon-left:before {
+  content: "\e6e0";
+}
+
+.icon-search:before {
+  content: "\e649";
+}
+
+.icon-mine:before {
+  content: "\e61c";
+}
+
+.icon-shop:before {
+  content: "\e78c";
+}
+
